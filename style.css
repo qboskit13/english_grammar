@@ -1,0 +1,154 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.category-buttons button {
+    margin: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.category-buttons button.active {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+#exercise-area p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.input-field {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    width: 100px;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+p.correct { 
+  color: green; 
+}
+
+p.incorrect { 
+  color: red; 
+}
+.partially-correct {
+    color: #f5a623; /* An orange color to indicate partial correctness */
+  }
+
+
+
+
+nav {
+    margin-bottom: 20px; 
+  }
+  
+  .main-menu > li {
+    display: inline-block;
+    margin: 0 15px; 
+    position: relative; 
+  }
+  
+  .sub-menu {
+    display: none; 
+    position: absolute; 
+    background-color: #f0f0f0;
+    padding: 15px; /* More padding */
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  .main-menu li:hover > .sub-menu { 
+    display: block; 
+  }
+  
+  .sub-menu li {
+    display: block;
+    margin-bottom: 5px; /* Space between submenu items */
+  }
+  
+
+  .main-menu > li[data-category="verb-tenses"] > ul > li[data-category^="present"] {
+    background-color: #90EE90; /* Light green for present tenses */
+  }
+  
+  .main-menu > li[data-category="verb-tenses"] > ul > li[data-category^="past"] {
+    background-color: #FFDAB9; /* Light peach for past tenses */
+  }
+  
+  .main-menu > li[data-category="verb-tenses"] > ul > li[data-category^="future"] {
+    background-color: #ADD8E6; /* Light blue for future tenses */
+  }
+  .main-menu > li[data-category="verb-tenses"] > ul > li[data-category="mixed-tenses"] {
+    background-color: #F0F8FF; /* Light lavender or a color of your choice */
+  }
+  
+  .main-menu > li[data-category="conditionals"] > ul > li[data-category^="zero"] {
+    background-color: #FF99CC; /* A shade of pink for Zero Conditional */
+  }
+  .main-menu > li[data-category="conditionals"] > ul > li[data-category^="first"] {
+    background-color: #FFFF99; /* A shade of yellow for First Conditional */
+  }
+  .main-menu > li[data-category="conditionals"] > ul > li[data-category^="second"] {
+    background-color: #CCFF99; /* A shade of light green for Second Conditional */
+  }
+  .main-menu > li[data-category="conditionals"] > ul > li[data-category^="third"] {
+    background-color: #FFCC99; /* A shade of orange for Third Conditional */
+  }
+  .main-menu > li[data-category="conditionals"] > ul > li[data-category="mixed-conditionals"] {
+    background-color: #F0F8FF; /* Light lavender or a color of your choice */
+  }
+  
+/* Submenus for Voice */  
+.main-menu > li[data-category="voice"] > ul > li[data-category="active-voice"] {
+    background-color: #90EE90; /* A shade of light green for Active Voice */
+  }
+  .main-menu > li[data-category="voice"] > ul > li[data-category="passive-voice"] {
+    background-color: #FFDAB9; /* A shade of light peach for Passive Voice */
+  }
+  
+  /* Submenus for ABCD Quiz */
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category="irregular-verbs"] {
+    background-color: #ADD8E6; /* Light blue */
+  }
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category="yes-no-questions"] {
+    background-color: #90EE90; /* Light green */
+  }
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category="wh-questions"] {
+    background-color: #FFDAB9; /* Light peach */
+  }
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category="tag-questions"] {
+    background-color: #F8F8FF; /* Light purple */
+  }
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category^="modals-possibility"] { 
+    background-color: #FFE0B4; /* Light yellow-orange */
+  } 
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category^="modals-ability"] { 
+    background-color: #E0FFFF; /* Light turquoise */
+  } 
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category^="modals-obligation"] { 
+    background-color: #FFCCFF; /* Light pink */
+  } 
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category^="modals-advice"] { 
+    background-color: #FFFFCC; /* Light yellow */
+  } 
+  .main-menu > li[data-category="abcd-quiz"] > ul > li[data-category^="modals-other"] { 
+    background-color: #F0F8FF; /* Light lavender */
+  } 
